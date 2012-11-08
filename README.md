@@ -5,6 +5,16 @@ jReddit is a wrapper for the Reddit API written in Java. It is a work in progres
 So far, jReddit can login with a user, retrieve user information, submit new links, and vote/comment on submissions, among other things.
 ##What's next for jReddit?
 I plan to implement every feature documented [here](http://www.reddit.com/dev/api).
+##What licence is jReddit released under?
+You are permitted to use, copy, modify, and distribute the Software and its documentation, with or without modification, for any purpose, provided that the following conditions are met:
+
+A copy of this license agreement must be included with the distribution.
+Redistributions in binary form must reproduce the above copyright notice in the documentation and/or other materials provided with the distribution.
+Commercial products derived from the Software must include an acknowledgment of the author(s) of jReddit in their documentation and/or other materials provided with the distribution.
+Products derived from the Software may not be called "jReddit", nor may "jReddit" appear in their name, without prior written permission from the author(s).
+
+See LICENCE.txt for more info.
+
 ##Dependencies
 [JSON-simple](http://code.google.com/p/json-simple/)
 ##Examples
