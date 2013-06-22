@@ -1,3 +1,4 @@
+package com.omrlnr.jreddit;
 import static org.junit.Assert.*;
 
 import java.util.LinkedList;
@@ -18,8 +19,8 @@ public class SubmissionTest {
 			User user = new User("test_subject_666", "beef");
 			user.connect();
 
-			frontpage = Submissions.getSubmissions("all", Submissions.HOT,
-					Submissions.FRONTPAGE, user);
+			frontpage = Submissions.getSubmissions("all", Submissions.Popularity.HOT,
+					Submissions.Page.FRONTPAGE, user);
 			first = frontpage.get(0);
 		} catch (Exception exception) {
 			exception.printStackTrace();

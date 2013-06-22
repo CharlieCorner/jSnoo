@@ -1,3 +1,4 @@
+package com.omrlnr.jreddit;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
