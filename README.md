@@ -1,3 +1,10 @@
+#jSnoo
+##What is jSnoo?
+jSnoo is a fork from _oe's jReddit with an aiming to be as portable as possible while implementing the poweful Reddit API.
+You can check the original codebase on https://bitbucket.org/_oe/jreddit/
+##What license does jSnoo has?
+jSnoo will be licensed under the GPLv2 licence. Any code written by _oa is licensed under the terms specified below.
+
 #jReddit
 ##What is jReddit?
 jReddit is a wrapper for the Reddit API written in Java. It is a work in progress.
